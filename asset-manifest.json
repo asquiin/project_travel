@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/project_travel/static/css/main.688d941b.css",
+    "main.js": "/project_travel/static/js/main.5bdca784.js",
+    "static/media/rio.jpg": "/project_travel/static/media/rio.f7e032a32df5675fa9ab.jpg",
+    "static/media/madrid.jpg": "/project_travel/static/media/madrid.2176408924eb532ea6dd.jpg",
+    "static/media/ellipse.png": "/project_travel/static/media/ellipse.938e458920c70a6f27de.png",
+    "static/media/pic3.png": "/project_travel/static/media/pic3.30c1b81364eff5c4dd42.png",
+    "static/media/sing.jpg": "/project_travel/static/media/sing.b64a7d5920fe4e7054b4.jpg",
+    "static/media/la.jpg": "/project_travel/static/media/la.45d15ff059b46e6b3880.jpg",
+    "static/media/tour.png": "/project_travel/static/media/tour.cae9a35ec48299ab216b.png",
+    "static/media/seoul.jpeg": "/project_travel/static/media/seoul.d64f13fe06e65006f2c4.jpeg",
+    "static/media/maldives.jpg": "/project_travel/static/media/maldives.960417667a488f85011d.jpg",
+    "static/media/tmr.jpeg": "/project_travel/static/media/tmr.b08ca4c68a168b1ba571.jpeg",
+    "static/media/alps.jpg": "/project_travel/static/media/alps.5e47258acb5ee47bcd14.jpg",
+    "static/media/barcelona.jpg": "/project_travel/static/media/barcelona.b5a5eb5ccc17bfb36748.jpg",
+    "static/media/Switzerland.jpg": "/project_travel/static/media/Switzerland.feb25da2ebf03647fcf3.jpg",
+    "static/media/india.jpeg": "/project_travel/static/media/india.1d4ff8e1f894101f48f6.jpeg",
+    "index.html": "/project_travel/index.html",
+    "main.688d941b.css.map": "/project_travel/static/css/main.688d941b.css.map",
+    "main.5bdca784.js.map": "/project_travel/static/js/main.5bdca784.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.688d941b.css",
+    "static/js/main.5bdca784.js"
+  ]
+}
