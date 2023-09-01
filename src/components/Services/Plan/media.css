@@ -1,0 +1,55 @@
+
+@media (max-width: 1280px) {
+    .divSecond {
+      flex-direction: column;
+      margin-top: 100px;
+      width: 400px;
+    }
+  
+    .tripPlan {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .tourPic {
+      margin-top: 20px;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+
+    .divSecond {
+        width:300px;
+      }
+
+    .tripPlan {
+      padding: 5px;
+    }
+
+    .pTrip {
+        font-size: 12px;
+    }
+  
+    .tourPic {
+      margin-top: 15px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+
+    .divSecond {
+        width:100%;
+    }
+    .tripPlan {
+      padding: 10px;
+      width: 320px;
+    }
+  
+    .tourPic {
+      margin-top: 10px;
+      width: 100%; 
+      max-width: 250px; 
+    }
+  }
+  

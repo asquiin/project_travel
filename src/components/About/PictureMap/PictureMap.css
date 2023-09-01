@@ -1,0 +1,57 @@
+.littleHeader {
+  place-items: center;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.h5Header {
+  font-size: 30px;
+}
+
+.h3Header {
+  font-size: 20px;
+}
+
+.forPic {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto; 
+  gap: 20px;
+}
+
+.picture-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.image-with-text {
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+.imgStyle {
+  width: 250px;
+  height: 250px;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  padding: 1px;
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  z-index: 1;
+}

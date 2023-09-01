@@ -1,0 +1,52 @@
+.mainDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    padding: 100px;
+  }
+
+  @media (max-width: 1280px) {
+
+    .mainDiv {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 10px;
+      width: 100%;
+      height: auto;
+      padding: 50px;
+    }
+
+  }
+  
+  @media (max-width: 768px) {
+ 
+    .mainDiv {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      gap: 5px;
+      width: 100%;
+      height: auto;
+      padding: 15px;
+    }
+
+  }
+  
+  @media (max-width: 425px) {
+
+    .mainDiv {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      gap: 5px;
+      width: 100%;
+      height: auto;
+      padding: 10px 10px 10px 10px;
+    }
+
+  }
+  

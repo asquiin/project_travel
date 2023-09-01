@@ -1,0 +1,29 @@
+.upcomingDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.tablePackage {
+    margin-top:80px;
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .tablePackage th, td {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    height: 80px;
+  }
+  
+  .tablePackage th {
+    background-color: #f2f2f2;
+    color: #df6951;
+  }
+  .tablePackage thead {
+    margin: 0;
+  }

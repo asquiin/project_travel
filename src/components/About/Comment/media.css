@@ -1,0 +1,61 @@
+
+  @media only screen and (max-width: 1280px) {
+    .h2 {
+      font-size: calc(24px + (30 - 24) * ((100vw - 425px) / (1280 - 425)));
+    }
+
+    .forComments {
+    margin-top:150px;
+    margin-bottom: 100px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+
+    .forComments {
+      margin-top:220px;
+      margin-bottom: 200px;
+      }
+
+    .h2 {
+      font-size: calc(20px + (24 - 20) * ((100vw - 425px) / (768 - 425)));
+    }
+    .div7 {
+      width: 100%;
+      height: calc(400px + (0 - 300) * ((100vw - 425px) / (768 - 425)));
+      padding: calc(70px + (0 - 70) * ((100vw - 425px) / (768 - 425)));
+    }
+    .pComm {
+      font-size: calc(25px + (9 - 20) * ((100vw - 425px) / (768 - 425)));
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+
+    .forComments {
+      margin-top:350px;
+      margin-bottom: 0;
+      }
+
+    .h2 {
+      font-size: 18px;
+    }
+    .div7 {
+      width: 100%;
+      max-height: 20%;
+      padding: 10px;
+    }
+    .mainComm {
+      height: 0;
+    }
+    .h2Comm {
+      font-size: 20px;
+    }
+    .h5Comm {
+      font-size: 15px;
+    }
+    .pComm {
+      font-size: 9px;
+    }
+  }
+  

@@ -1,0 +1,40 @@
+  
+  .divFirst {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 50px;
+  }
+  
+  .tableTour {
+    animation: slideInFromLeft 3s ease-in-out;
+  }
+  
+  .tableTour td, th {
+    margin: 40px;
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+    border-bottom: none;
+  
+  }
+  
+  .tableTour td {
+    font-size: 16px;
+  }
+  
+  .tourStyle {
+    width: 250px;
+    height: 250px;
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }

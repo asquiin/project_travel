@@ -1,0 +1,83 @@
+
+  @media only screen and (max-width: 1280px) {
+    .footer ul li {
+      font-size: calc(9px + (2 - 1.4) * ((100vw - 320px) / (1200 - 800)));
+      line-height: calc(10px + (2 - 1.4) * ((100vw - 320px) / (1200 - 800)));
+    }
+
+    .footer {
+      padding: 30px 50px 50px;
+    }
+
+    .footer ul {
+      padding: 10px;
+    }
+
+  }
+  
+  @media only screen and (max-width: 768px) {
+
+    .footer {
+      padding: 20px 25px 25px 25px;
+    }
+
+    .footer ul li{
+      padding:3.5px;
+    }
+
+    .btn2 {
+      width: calc(100px + (2 - 1.4) * ((100vw - 320px) / (1200 - 800)));
+      font-size: calc(12px + (2 - 1.4) * ((100vw - 320px) / (1200 - 800)));
+      padding: 12px;
+    }
+  
+    .input1 {
+      width: calc(150px + (2 - 1.4) * ((100vw - 320px) / (1200 - 800)));
+      font-size: calc(12px + (2 - 1.4) * ((100vw - 320px) / (1200 - 800)));
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .footer {
+      grid-template-columns: auto auto;
+      padding: 10px;
+    }
+
+    .footer ul li{
+      font-size: calc(10px + (2 - 1.4) * ((100vw - 320px) / (1200 - 800)));
+      padding: 2px;
+      line-height: 10px;
+    }
+
+    .footer ul {
+      padding: 5px;
+    }
+  }
+  
+  @media only screen and (max-width: 280px) {
+    .footer {
+      grid-template-columns: auto;
+      padding: 20px 5px 5px 5px;
+    }
+
+    .footer ul li{
+      font-size: calc(7px + (2 - 1.4) * ((100vw - 320px) / (1200 - 800)));
+      padding: 5px;
+      line-height: 10px;
+      text-align: center;
+    }
+
+    .footer ul {
+      padding: 5px;
+    }
+
+    .input1 {
+      width: calc(130px + (2 - 1.4) * ((100vw - 320px) / (1200 - 800)));
+      font-size: calc(10px + (2 - 1.4) * ((100vw - 320px) / (1200 - 800)));
+    }
+
+    .btn2 {
+      width: calc(120px + (2 - 1.4) * ((100vw - 320px) / (1200 - 800)));
+    }
+  }
+  

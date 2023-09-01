@@ -1,0 +1,35 @@
+
+@media (max-width: 1280px) {
+    .tablePackage {
+      width: calc(80% - 40px); 
+      margin-top: 90px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .tablePackage {
+      width: calc(100% - 20px);
+      margin-top: 90px;
+      margin-bottom: 10px;
+    }
+    .tablePackage th,
+    .tablePackage td {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .tablePackage {
+      width: calc(100% - 10px);
+      margin-top: 120px;
+      margin-bottom: 5px;
+    }
+    .tablePackage th,
+    .tablePackage td {
+      padding: 6px; 
+      height: 60px; 
+      font-size: 13px;
+    }
+  }
+  

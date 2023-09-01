@@ -1,0 +1,106 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.forFooter {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: white;
+  margin-left: 20px;
+  position: relative;
+}
+
+.forFooter::after {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: black;
+}
+
+.grid-item {
+  padding: 0;
+  list-style: none;
+}
+
+.forFooter ul li {
+  margin-bottom: 8px;
+}
+
+.btn2 {
+  width: 150px;
+  border-radius: 5px;
+  background: #df6951;
+  padding: 12px;
+  font-size: 16px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  margin: 2px;
+}
+
+.btn2:hover {
+  background: #808080;
+  color: #ffffff;
+}
+
+.input1 {
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  width: 300px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input1::placeholder {
+  color: #999;
+}
+
+.input1:focus {
+  outline: none;
+  border-color: #ff6b6b;
+  box-shadow: 0 0 5px #ff6b6b;
+}
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

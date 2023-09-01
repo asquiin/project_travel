@@ -1,0 +1,85 @@
+
+.divSecond {
+    margin: 0px;
+    margin-top: 50px;
+    width: 500px;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .divSecond h2 {
+    color: #181e4b;
+  }
+  
+  .divSecond input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 300px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .divSecond input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .divSecond input::placeholder {
+    color: #999;
+  }
+  
+  .tourBtn {
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    background: #df6951;
+    padding: 5px 15px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .tourBtn:hover {
+    background: #808080;
+    color: #ffffff;
+  }
+  
+  .tourPic {
+    width: 100%; 
+    max-width: 450px; 
+    height: auto; 
+  }
+  
+  .divSecond ul {
+    list-style: none;
+  }
+  
+  .divSecond li {
+    margin: 5px;
+    padding: 30px;
+  }
+  
+  .tripPlan {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #EDEDED;
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 3s ease-in-out, transform 3s ease-in-out;
+  }
+  
+  .divSecond.show .tripPlan {
+    opacity: 1;
+    transform: translateY(0); 
+  }
